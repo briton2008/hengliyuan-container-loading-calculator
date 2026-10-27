@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/morrowfactory/open-cargo-planner",
+  "commit": "e3a7ac7a8a99d0be35ba741967d7ecc6f7129189",
+  "license": "MIT",
+  "files": [
+    "src/domain/orientations.ts",
+    "src/solver/extreme-point.ts"
+  ],
+  "changes": [
+    "TypeScript syntax stripped with Node standard library",
+    "Payload cap applied to full column, not just the first box",
+    "Stackable and maximum stack-layer options enforced"
+  ],
+  "verifiedOn": "2026-10-27"
+}
