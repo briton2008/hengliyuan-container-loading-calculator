@@ -14,7 +14,7 @@ Compare 20GP, 40GP and 40HC container loads from measured cartons, with 3D views
 
 - Compare three editable container examples, payload and door limits.
 - Customer-measured cartons, allowed orientations, stacking, reserves and optional order counts.
-- Independent geometry checks, interactive 3D and company-template review PDF.
+- Independent geometry checks, a container cutaway with keyboard-accessible cumulative layer/angle controls, and company-template review PDF.
 
 ## Run locally
 
@@ -43,7 +43,7 @@ This checks a real browser against a simulated Pages subdirectory, including a c
 
 Single-size loose cartons only. Heuristic results do not prove optimality, load safety, structural support or legal route payload. No pallets or mixed-SKU container solver.
 
-All worksheet inputs stay in memory in the current tab. Refreshing clears them. No database, localStorage, analytics, API key, remote calculation or customer-submission endpoint is included. Company/contact links open separately and do not attach inputs. Save or copy the company-template review PDF before closing. Carrier container dimensions are editable examples with source links, not guaranteed dimensions or route limits. The SVG draws at most 240 cartons while counts use the full plan. The source algorithm is compared with a uniform grid for theoretical counts up to 2000; larger counts use the grid.
+All worksheet inputs stay in memory in the current tab. Refreshing clears them. No database, localStorage, analytics, API key, remote calculation or customer-submission endpoint is included. Company/contact links open separately and do not attach inputs. Save or copy the company-template review PDF before closing. Carrier container dimensions are editable examples with source links, not guaranteed dimensions or route limits. Regular-grid plans up to 1,800 cartons display all actual box positions. Larger or placement-heuristic plans retain the model’s bounded preview (at most 240 cartons); the caption distinguishes drawn and calculated quantities. The empty state shows a container without assuming cargo. Screen filters leave counts unchanged; the company PDF uses the full preview. Structural details are illustrative, and the envelope represents usable space after allowances. The source algorithm is compared with a uniform grid for theoretical counts up to 2000; larger counts use the grid.
 
 ## Reuse and contribute
 

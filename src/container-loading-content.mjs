@@ -1,5 +1,13 @@
 export const containerSlug='container-loading-calculator';
 const text={
+ cutaway:['Container cutaway','装柜剖视','裝櫃剖視'],
+ layers:['Layers','层数','層數'],visibleCartons:['Cartons shown','显示箱数','顯示箱數'],
+ layerControl:['Show layers from the floor','从底层逐层查看','從底層逐層查看'],
+ angleControl:['View angle','查看角度','查看角度'],
+ cutawayHelp:['Roof and near walls are removed to reveal the arrangement. Structural details are illustrative; the envelope represents usable space after allowances.','图中移除顶板及近侧壁板以查看内部排列。结构细节为示意，边界代表扣除预留后的可用空间。','圖中移除頂板及近側壁板以查看內部排列。結構細節為示意，邊界代表扣除預留後的可用空間。'],
+ previewLimit:['Preview cartons / calculated cartons:','图示箱数／测算箱数：','圖示箱數／測算箱數：'],
+ fullPreview:['All calculated carton positions are shown.','图示包含本次测算的全部箱位。','圖示包含本次測算的全部箱位。'],
+ printView:['View controls affect this screen only; the PDF shows the complete preview.','显示控件仅改变当前图示，PDF使用完整预览。','顯示控制項僅改變目前圖示，PDF使用完整預覽。'],
  title:['Container loading calculator','集装箱装载量计算器','集裝箱裝載量計算器'],
  seoTitle:['20ft & 40ft Container Loading Calculator','20尺/40尺集装箱装载量计算器','20尺/40尺集裝箱裝載量計算器'],
  advanced:['Advanced: actual container and loading allowances','高级设置：实际柜型与装载预留','進階設定：實際櫃型與裝載預留'],

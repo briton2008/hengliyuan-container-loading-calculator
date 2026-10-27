@@ -7,7 +7,7 @@
   "features": [
     "Compare three editable container examples, payload and door limits.",
     "Customer-measured cartons, allowed orientations, stacking, reserves and optional order counts.",
-    "Independent geometry checks, interactive 3D and company-template review PDF."
+    "Independent geometry checks, Anatomy container cutaway, cumulative layers and company-template review PDF."
   ],
   "limit": "Single-size loose cartons only. Heuristic results do not prove optimality, load safety, structural support or legal route payload. No pallets or mixed-SKU container solver."
 }

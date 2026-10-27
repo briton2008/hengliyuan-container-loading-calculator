@@ -1,11 +1,10 @@
-# Hengliyuan Container Loading Calculator v0.1.0
+# Hengliyuan Container Loading Calculator v0.2.0
 
-Compare 20GP, 40GP and 40HC container loads from measured cartons, with 3D views and company PDF.
+The loading result and company PDF now use an Anatomy container cutaway instead of the generic carton view. The empty form shows an empty container; no cargo dimensions or weights are assumed.
 
-- Compare three editable container examples, payload and door limits.
-- Customer-measured cartons, allowed orientations, stacking, reserves and optional order counts.
-- Independent geometry checks, interactive 3D and company-template review PDF.
+- Inspect cumulative layers from the floor and change the view angle with keyboard-accessible sliders.
+- Keep calculated counts unchanged while filtering the screen. Company PDF always uses the full preview.
+- Expand the result area and use compact carton dimension inputs on phones.
+- Draw all actual grid positions for up to 1,800 cartons. Larger or heuristic plans retain bounded model previews; the caption shows any difference.
 
-Single-size loose cartons only. Heuristic results do not prove optimality, load safety, structural support or legal route payload. No pallets or mixed-SKU container solver.
-
-Customer inputs remain local. See README.md for privacy, data sources and third-party notices. MIT code; company branding is reserved separately.
+Calculation and worker code, payload/door constraints and dependencies are unchanged. Anatomy renderer code is MIT with original notices and provenance retained. These structural details are illustrative; carton strength, securing, physical loading and route limits still need review.
